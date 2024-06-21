@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #0D0D0D;
+}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.header {
+    background-color: #00666a;
+    height: 60px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FFFFFF;
+    border-radius: 13px;
+}
+.title01 {
+    height: 22px;
+    width: 400px;
+    margin-top: 17px;
+    float: left;
+}
+.search {
+    float: left;
+    height: 30px;
+    width: 230px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+#textfield {
+    height: 28px;
+    width: 165px;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #828282;
+    background-color: #d5dbdc;
+    border: 1px solid #D1D3D4;
+    text-indent: 5pt;
+    border-radius: 5px;
+    float: left;
+}
+.search-icon {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 9px;
+}
+.login {
+    float: left;
+    height: 24px;
+    width: 80px;
+    margin-top: 18px;
+    margin-left: 90px;
+}
+a:link {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+a:hover {
+    text-decoration: none;
+    color: #086b6f;
+}
+a:active {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+a.white:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.white:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+a.white:hover {
+    text-decoration: none;
+    color: #f9e08d;
+}
+a.white:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+.banner-up {
+    height: 500px;
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    background-image: url(../images/banner.jpg);
+    overflow: hidden;
+}
+.notice {
+    font-size: 14px;
+    background-color: #b2c3c9;
+    height: 45px;
+    width: 830px;
+    margin-top: 430px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #f3f3f3;
+    line-height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+.bigtext {
+    font-family: "微软雅黑";
+    font-size: 21px;
+    color: #000000;
+}
+.on01 {
+    float: right;
+    height: 35px;
+    width: 80px;
+    background-color: #d0d8da;
+    margin-top: 5px;
+    line-height: 35px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+ul,li{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;}
+	
+/*横向向导航开始*/
+#bar{
+    width: 1050px;
+    margin: 0px auto;
+    visibility: inherit;
+    position: relative;
+    z-index: 999;
+	}
+
+#bar ul li{
+			width:175px;
+			height:50px;
+			text-align:center;
+			line-height:53px;
+			background-color: #00666a;
+            border-bottom: 3px solid #00666a;
+			float:left;}
+#bar ul li a {
+			color:#f59ac9}
+#bar ul li a:hover {
+			color:#ff6e8e}
+#bar ul li ul{
+			display:none;
+			margin-left:0px;}
+#bar ul li:hover ul{display:block;}
+#bar ul li:hover{
+    border-bottom: 3px solid #FF6E8E;
+}
+.clear::after{
+	content:"";
+	display:block;
+	clear:both;}
+
+	/*横向导航END*/
+.main {
+    background-color: #FFFFFF;
+    height: 560px;
+    width: 1050px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mian-card {
+    font-family: "微软雅黑";
+    float: left;
+    height: 540px;
+    width: 300px;
+    margin-left: 38px;
+}
+.card-img {
+    height: 320px;
+    width: 300px;
+}
+.card-text {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 28px;
+    color: #262626;
+    padding: 20px;
+    height: 180px;
+    width: 260px;
+    background-color: #f7e198;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.news {
+    font-family: "微软雅黑";
+    height: 390px;
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner-right {
+    height: 380px;
+    width: 720px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 310px;
+}
+.but-220 {
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #00666a;
+    text-align: center;
+    height: 50px;
+    width: 220px;
+    line-height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+}
+.bulletin {
+    height: 326px;
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 2px solid #292929;
+    border-bottom: 2px solid #292929;
+}
+.footer {
+    background-color: #efefef;
+    height: 204px;
+    width: 1000px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 24px;
+}
+.hs {
+    font-family: "微软雅黑";
+    color: #818181;
+}

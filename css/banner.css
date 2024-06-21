@@ -1,0 +1,35 @@
+.banner{
+	width: 310px;
+	height: 390px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+    float: left;}
+.banner .banner_pic .pic{display:none;}
+.banner .banner_pic .current{display:block;}
+.banner ol{
+    position:absolute;
+    left:56px;
+    top:340px;
+ }
+.banner ol .but{
+    float:left;
+    width:15px;
+    height:15px;
+    border:1px solid #f7e198;
+    margin-right:20px;
+    border-radius: 50%;
+	box-shadow: 5px 5px 5px 5px rgba(152,152,152,0.2);/* 设置一个阴影 颜色 透明度 */
+ }
+.banner ol li{cursor:pointer;}
+.banner ol .current{
+    background:#ffffff;
+    float:left;
+    width:15px;
+    height:15px;
+    border:1px solid #f2f2f2;
+    margin-right:20px;
+	border-radius: 50%;
+}
+ 
